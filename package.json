@@ -1,0 +1,12 @@
+{
+  "name": "behavioral-interview-assistant",
+  "version": "1.0.0",
+  "description": "An interactive prep tool and assistant app for behavioral interviews.",
+  "scripts": {
+    "install-app": "npm install --prefix interview-app",
+    "dev": "npm run dev --prefix interview-app",
+    "build": "npm run build --prefix interview-app",
+    "ingest": "node interview-app/ingestStories.mjs",
+    "postinstall": "npm run install-app"
+  }
+}

@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+interview-app/node_modules/
+
+# Compiled files and build directories
+interview-app/dist/
+interview-app/src/data/stories.json
+
+# User personal data (resumes, documents)
+*.pdf
+
+# Personal experience stories (only keep templates/readme)
+experience/*.md
+!experience/README.md
