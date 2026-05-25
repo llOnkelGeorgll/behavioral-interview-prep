@@ -16,3 +16,6 @@ interview-app/src/data/stories.json
 # Personal experience stories (only keep templates/readme)
 experience/*.md
 !experience/README.md
+
+# Project local configuration
+.config.json
